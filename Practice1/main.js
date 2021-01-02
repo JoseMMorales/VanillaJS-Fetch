@@ -22,6 +22,7 @@ function displayData(elementDom, elements) {
 		const newID = document.createElement("p");
 		const newH1 = document.createElement("h1");
 		const newP = document.createElement("p");
+		
 		newID.textContent = post.id;
 		newH1.textContent = post.title;
 		newP.textContent = post.body;
