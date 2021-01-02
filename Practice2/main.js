@@ -53,7 +53,7 @@ async function fetchUsers() {
   while(morePagesAvailable) {
     currentPage++;
     const response = await fetch(`${USERS_URL}?page=${currentPage}`)
-    let { data, total_pages } = await response.json();
+		let { data, total_pages } = await response.json();
     data.forEach(e => allData.push(e));
 		morePagesAvailable = currentPage < total_pages;
 	}
