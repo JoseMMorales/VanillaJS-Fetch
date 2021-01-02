@@ -20,7 +20,8 @@ API: https://jsonplaceholder.typicode.com/posts
 ### Practice 2
 
 * Create simple login to make a POST request to this [API](https://reqres.in/api/login) with credentials.
-* If the response is successful we will display all users from this [API](https://reqres.in/api/users). If the request is not successful, an alert should be displayed.
+* If the response is successful we will display all users from this [API](https://reqres.in/api/users). 
+* If the request is not successful, an alert should be displayed.
 * Go through all pages to display all users in the DOM.
 
 API: https://reqres.in/api/login / https://reqres.in/api/users
