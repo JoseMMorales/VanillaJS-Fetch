@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div>
+      <h4>API POST: https://reqres.in/api/login</h4>
+      <h4>API GET ALL PAGES: https://reqres.in/api/users?page=${currentPage}</h4>  
+      <h6>Username: eve.holt@reqres.in</h6>
+      <h6>Password: cityslicka</h6>
+    </div>
+    <div>
+      <form class="login">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">  
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">  
+        <button type="submit" class="submit">Submit</button>
+      </form>
+    </div>
+    <ul class="emptyList"></ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

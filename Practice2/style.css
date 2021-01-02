@@ -1,0 +1,23 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  max-height: 100vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.login button {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
