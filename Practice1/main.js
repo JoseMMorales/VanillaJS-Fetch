@@ -37,7 +37,7 @@ function changePagination(e) {
 	const button = e.currentTarget;
 	const buttonTarget = button.dataset.page;
 
-	buttonTarget === 'previous' ? currentPage = Math.max(currentPage - 1, 1) :
+	buttonTarget === 'previous' ? currentPage = Math.max(currentPage - 1, 1):
 																currentPage = Math.min(currentPage + 1, 5);
 
 	elementDom.innerHTML = '';
