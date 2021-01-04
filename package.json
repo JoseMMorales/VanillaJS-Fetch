@@ -1,0 +1,24 @@
+{
+  "name": "vanillajs-fetch",
+  "version": "1.0.0",
+  "description": "The Document Object Model[(DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is an interface to webpages, represented in an HTML document created by the browser when the page is loaded. using JavaScript we may modify the structure, style and content of the web.",
+  "main": "index.js",
+  "scripts": {
+    "start1": "http-server -o ./Practice1",
+    "start2": "http-server -o ./Practice2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseMMorales/VanillaJS-Fetch.git"
+  },
+  "author": "JoseMMorales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseMMorales/VanillaJS-Fetch/issues"
+  },
+  "homepage": "https://github.com/JoseMMorales/VanillaJS-Fetch#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

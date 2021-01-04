@@ -42,8 +42,8 @@ Asynchronous functions [(Async)](https://developer.mozilla.org/en-US/docs/Web/Ja
 * Clone the project to your local directory.
 * $git clone https://github.com/JoseMMorales/VanillaJS-Fetch.git
 * $cd VanillaJS-Fetch.
-* Right click on index.html file and select "Copy path".
-* Open window browser and paste URL.
+* $npm install
+* $npm run start1 or $npm run start2
 
 ## Technology:
 * HTML5
